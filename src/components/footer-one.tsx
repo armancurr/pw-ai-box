@@ -41,10 +41,6 @@ export default function FooterSection() {
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 1.2, ease: [0.25, 0.4, 0.25, 1] }}
       >
-        <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-          <Logo />
-        </Link>
-
         <div className="my-8 flex flex-wrap justify-center gap-6">
           {links.map((link, index) => (
             <Link
