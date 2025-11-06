@@ -181,7 +181,7 @@ export default function FooterSection() {
         </div>
         <span className="text-muted-foreground block text-center text-sm">
           {" "}
-          © {new Date().getFullYear()} AI Arcade, All rights reserved
+          © {new Date().getFullYear()} All rights reserved
         </span>
       </motion.div>
     </footer>

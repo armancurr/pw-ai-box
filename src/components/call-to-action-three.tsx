@@ -23,9 +23,8 @@ export default function StatsSection() {
             Game On!
           </h2>
           <p className="mt-4 text-lg">
-            Powered by advanced RAG technology, AI Arcade delivers instant,
-            accurate answers to your academic queries in a fun arcade
-            experience.
+            Powered by advanced RAG technology it delivers instant, accurate
+            answers to your academic queries in a fun experience.
           </p>
           <div className="mt-8 flex gap-3">
             <Button asChild className="pr-2">

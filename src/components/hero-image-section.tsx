@@ -157,7 +157,7 @@ export default function HeroImageSection() {
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 1.2, ease: [0.25, 0.4, 0.25, 1] }}
       >
-        <div className="mx-auto max-w-4/5 px-6 ">
+        <div className="mx-auto max-w-4/5 px-6 botder-2 border-black ">
           <div ref={containerRef} className="relative h-[600px]">
             <canvas
               ref={canvasRef}
@@ -167,19 +167,15 @@ export default function HeroImageSection() {
 
             {/* Content overlay */}
             <div className="absolute top-8 left-8 z-20 max-w-lg">
-              <div className="backdrop-blur-md bg-black/30 rounded-lg p-6">
-                <h2 className="text-white text-xl font-semibold lg:text-2xl mb-3">
-                  Transform Your Academic Journey
-                </h2>
-                <p className="text-white/90 text-sm leading-relaxed">
-                  Experience the future of learning with AI Arcade. Get instant,
-                  accurate answers to your academic questions powered by
-                  cutting-edge RAG technology.
-                </p>
-                <p className="text-[10px]">
-                  *Model may be changed in the future
-                </p>
-              </div>
+              <h2 className="text-foreground text-xl font-semibold lg:text-2xl mb-3">
+                Transform Your Academic Journey
+              </h2>
+              <p className="text-foreground text-sm leading-relaxed">
+                Experience the future of learning with AI Arcade. Get instant,
+                accurate answers to your academic questions powered by
+                cutting-edge RAG technology.
+              </p>
+              <p className="text-[10px]">*Model may be changed in the future</p>
             </div>
           </div>
         </div>
