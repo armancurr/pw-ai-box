@@ -166,9 +166,9 @@ export default function HeroImageSection() {
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 1.2, ease: [0.25, 0.4, 0.25, 1] }}
       >
-        <div className="mx-auto max-w-4/5 px-6 flex flex-row ">
+        <div className="relative mx-auto max-w-4/5 px-6 flex flex-row items-center justify-center border-2 border-black">
           {/* Content overlay */}
-          <div className=" max-w-lg pt-2 pr-10">
+          <div className="absolute top-0 left-0 max-w-1/5 max-h-3/5 pt-10 pl-10 pr-10">
             <h2 className="text-foreground text-xl font-semibold lg:text-2xl mb-3">
               Transform Your Academic Journey
             </h2>
@@ -181,7 +181,7 @@ export default function HeroImageSection() {
           </div>
           <canvas
             ref={canvasRef}
-            className=" w-3/5 h-3/5 rounded-lg border-2 border-black"
+            className=" w-[90%] h-4/5 rounded-lg"
             style={{ pointerEvents: "auto" }}
           />
         </div>
