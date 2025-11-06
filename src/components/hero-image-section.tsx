@@ -157,7 +157,7 @@ export default function HeroImageSection() {
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 1.2, ease: [0.25, 0.4, 0.25, 1] }}
       >
-        <div className="mx-auto max-w-4/5 px-6 ">
+        <div className="mx-auto max-w-4/5 px-6 botder-2 border-black ">
           <div ref={containerRef} className="relative h-[600px]">
             <canvas
               ref={canvasRef}
